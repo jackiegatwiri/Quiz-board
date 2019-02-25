@@ -4,12 +4,21 @@
   color: white;
   border-radius: 10px;
 }
+
 .body {
   margin-top: 10px;
   margin-bottom: 10px;
-
 }
-/* ul {
+
+ul {
   /*how to remove bullets on dots in ul */
   list-style: none;
-} */
+}
+
+.Ques {
+  display: none;
+}
+
+.resulto {
+  display: none;
+}
