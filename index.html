@@ -11,22 +11,26 @@
 </head>
 
 <body>
-  <div class="Instructions">
-    <h3>General Directions</h3>
-    <p>This test consists of one section: a multiple-choice question section. Each question in the first section is a
-      multiple-choice question with four answer choices. Read each question and answer
-      choice carefully and choose the ONE best answer.</p>
-    <p>Try to answer all questions. In general, if you have some knowledge about a question, it
-      is better to try to answer it. You will not be penalized for guessing.</p>
-    <button type="button" name="button" id="next">Next</button>
-  </div>
-  <div class="Ques">
-    <div class="card">
-      <div class="card-header">
-        <h3> JavaScript MCQ : JS Basics (Multiple Choice Questions)</h3>
-      </div>
+  <div class="container-fluid">
+    <div class="Instructions">
+      <h2>General Instructions</h2>
+      <p>The quizzes consists of questions carefully designed to help you self-assess your comprehension of the information presented on the topics covered in the module. No data will be collected on the website regarding your responses or how many
+        times you take the quiz.</p>
+      <p>Each question in the quiz is of multiple-choice format. Read each question carefully, and click on the button next to your response that is based on the information covered on the topic in the module. Each correct or incorrect response will
+        result in appropriate feedback immediately after you submit your work.</p>
+      <p>After responding to the questions, click on the "Next Question" button. After responding to the 5th question, click on "submit" on the bottom of the window to check your result.</p>
+      <p>If you select an incorrect response for a question, you can try again until you get the correct response. If you retake the quiz</p>
+      <p>The total score for the quiz is based on your responses to all questions. If you respond incorrectly to a question or retake a question again and get the correct response, your quiz score will reflect it appropriately. However, your quiz
+        will not be graded, if you skip a question or exit before responding to all the questions.</p>
+
+      <button type="button" name="button" class="btn btn-info" id="next">Next</button>
     </div>
-    <div class="container">
+    <div class="Ques">
+      <div class="card">
+        <div class="card-header">
+          <h3> JavaScript MCQ : JS Basics (Multiple Choice Questions)</h3>
+        </div>
+      </div>
       <div class="body">
         <form>
           <h3>1. Javascript is a ___________ language.</h3>
@@ -74,22 +78,26 @@
               <li><input type="radio" name="questionFive" value="d" />Scripting</li>
             </label>
           </ul>
-          <button type="submit" id="submit">Submit</button>
+          <button type="submit" id="submit" class="btn btn-info">Submit</button>
+          <div class="card">
+            <div class="card-footer">
+              <h3>Total: 5 questions</h3>
+            </div>
+          </div>
         </form>
       </div>
     </div>
-    <div class="card">
-      <div class="card-footer">
-        <h3>Total: 5 questions</h3>
-      </div>
-    </div>
+
   </div>
   <!--ques-->
-  <div class="resulto">
-    <p id="results"></p>
-    <p id="percentage"></p>
-    <p id="remark"></p>
-    <button type="button" name="button" id="retake">Retake Test</button>
+  <div class="container-fluid">
+    <div class="resulto">
+      <h2>Results</h2>
+      <p id="results"></p>
+      <p id="percentage"></p>
+      <p id="remark"></p>
+      <button type="button" class="btn btn-info" name="button" id="retake">Retake Test</button>
+    </div>
   </div>
 </body>
 
