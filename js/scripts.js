@@ -26,27 +26,27 @@ $(document).ready(function(){
     var qFour = $("input:radio[name=questionFour]:checked").val();
     var qFive = $("input:radio[name=questionFive]:checked").val();
 //
-//     if(qOne===undefined||qTwo===undefined||qThree===undefined||qFour===undefined||qFive===undefined){
-//       alert("answer the questions");
-//     }
-//     else {
-//       if(qOne===answer[1]){
-//         score += point;
+    if(qOne===undefined||qTwo===undefined||qThree===undefined||qFour===undefined||qFive===undefined){
+      alert("answer the questions");
+    }
+    else {
+      if(qOne===answer[1]){
+        score += point;
+      }
+      if(qTwo===answer[0]){
+        score += point;
+      }
+      if(qThree===answer[1]){
+        score += point;
+      }
+      if(qFour===answer[1]){
+        score += point;
+      }
+      if(qFive===answer[2]){
+        score += point;
 //       }
-//       if(qTwo===answer[0]){
-//         score += point;
-//       }
-//       if(qThree===answer[1]){
-//         score += point;
-//       }
-//       if(qFour===answer[1]){
-//         score += point;
-//       }
-//       if(qFive===answer[2]){
-//         score += point;
-//       }
-//       $("#results").text("Your score is " +score+ " ");
-//     }
+      $("#results").text("Your score is " +score+ " ");
+    }
 //     jackie(score);
 //     event.preventDefault();
 //   });
