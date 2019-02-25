@@ -10,7 +10,7 @@ function jackie() {
   } else if (percentage >= 50) {
     $("#remark").text("You have fairly passed");
   } else {
-    $("#remark").text("You've scored poorly and you need to retake the test");
+    $("#remark").text("You've scored poorly. You need to retake the test");
   }
 }
 $(document).ready(function() {
