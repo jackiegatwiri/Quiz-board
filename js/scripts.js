@@ -4,17 +4,17 @@ var point = 5;
 var noOfQuestions = 5;
 // var highest = noOfQuestions*point;
 //
-// function jackie(){
-//   var percentage = score/25*100;
-//   $("#percentage").text("your percentage is " +percentage+ "%");
-//   if(percentage>=80){
-//     $("#remark").text("You have Excellently passed");
-//   }
-//   else if (percentage>=50){
-//     $("#remark").text("You have fairly passed");
-//   }
-//   else {
-//     $("#remark").text("You have scored poorly and you need to retake the test");
+function jackie(){
+  var percentage = score/25*100;
+  $("#percentage").text("your percentage is " +percentage+ "%");
+  if(percentage>=80){
+    $("#remark").text("You have Excellently passed");
+  }
+  else if (percentage>=50){
+    $("#remark").text("You have fairly passed");
+  }
+  else {
+    $("#remark").text("You have scored poorly and you need to retake the test");
 //   }
 // }
 //
