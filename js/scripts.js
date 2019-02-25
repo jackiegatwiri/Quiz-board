@@ -47,7 +47,7 @@ $(document).ready(function(){
 //       }
       $("#results").text("Your score is " +score+ " ");
     }
-//     jackie(score);
-//     event.preventDefault();
-//   });
-// });
+    jackie(score);
+    event.preventDefault();
+  });
+});
