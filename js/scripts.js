@@ -2,9 +2,10 @@ var score = 0;
 var answer = ["a", "b", "c", "d"];
 var point = 5;
 
-function jackie() {
+function merit() {
   var percentage = score / 25 * 100;
-  $("#percentage").text("your percentage is " + percentage + "%");
+  
+  $("#percentage").text("Your percentage is " + percentage + "%");
   if (percentage >= 80) {
     $("#remark").text("You have Excellently passed");
   } else if (percentage >= 50) {
@@ -15,8 +16,9 @@ function jackie() {
 }
 $(document).ready(function() {
   $("#next").click(function() {
-    $(".Instructions").hide(300);
-    $(".Ques").show();
+    $(".instructions").hide(300);
+    $(".top").hide(300);
+    $(".ques").show();
   });
   $("button#submit").click(function(event) {
     var qOne = $("input:radio[name=questionOne]:checked").val();
@@ -45,13 +47,13 @@ $(document).ready(function() {
       }
       $("#results").text("Your score is " + score + " ");
     }
-    jackie(score);
+    merit(score);
     event.preventDefault();
-    $(".Ques").hide();
-    $(".resulto").show();
+    $(".ques").hide();
+    $(".total").show();
   });
   $("#retake").click(function() {
-    $(".Ques").show();
-    $(".resulto").hide()
+    $(".ques").show();
+    $(".total").hide()
   });
 });

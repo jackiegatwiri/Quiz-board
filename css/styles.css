@@ -17,26 +17,36 @@ ul {
   list-style: none;
 }
 
-.Ques {
+.ques {
   display: none;
 }
 
-.resulto {
+.total {
   display: none;
-  /* text-align: center; */
+  text-align: center;
+  border: solid 3px;
+  border-color: #9795cf;
+  border-width: 50px;
+
 }
-.resulto>h2 {
+.total>h2 {
   text-align: center;
   margin-top: 20px;
+  font-family: 'Kaushan Script', cursive;
+
 }
-.Instructions h2 {
+.instructions h2 {
   text-align: center;
   margin-top: 3em;
+  color: #64638f;
+  font-family: 'Anton', sans-serif;
+
 }
-.Instructions p {
+.instructions li {
   padding-top: 2em;
+  line-height: 35px;
 }
-.Instructions button {
+.instructions button {
   margin-top: 5em;
   float: right;
 }
@@ -49,4 +59,8 @@ ul {
 }
 #retake {
   float:right;
+}
+
+#retake {
+  margin-top: 10px;
 }

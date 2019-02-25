@@ -8,24 +8,33 @@
   <link rel="stylesheet" href="css/styles.css" type="text/css">
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="js/scripts.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Anton|Kaushan+Script" rel="stylesheet">
 </head>
 
 <body>
   <div class="container-fluid">
-    <div class="Instructions">
-      <h2>General Instructions</h2>
-      <p>The quizzes consists of questions carefully designed to help you self-assess your comprehension of the information presented on the topics covered in the module. No data will be collected on the website regarding your responses or how many
-        times you take the quiz.</p>
-      <p>Each question in the quiz is of multiple-choice format. Read each question carefully, and click on the button next to your response that is based on the information covered on the topic in the module. Each correct or incorrect response will
-        result in appropriate feedback immediately after you submit your work.</p>
-      <p>After responding to the questions, click on the "Next Question" button. After responding to the 5th question, click on "submit" on the bottom of the window to check your result.</p>
-      <p>If you select an incorrect response for a question, you can try again until you get the correct response. If you retake the quiz</p>
-      <p>The total score for the quiz is based on your responses to all questions. If you respond incorrectly to a question or retake a question again and get the correct response, your quiz score will reflect it appropriately. However, your quiz
-        will not be graded, if you skip a question or exit before responding to all the questions.</p>
+
+    <div class="instructions">
+      <h2><u>JavaScript Multiple Choice Questions</u></h2>
+      <h4><u>General Instructions</u></h4>
+      <ol>
+      <li>The quizzes consists of questions carefully designed to help you self-assess your comprehension of the information presented on the topics covered in the module. No data will be collected on the website regarding your responses or how many
+        times you take the quiz.</li>
+      <li>Each question in the quiz is of <strong>multiple-choice format</strong>. Read each question carefully, and click on the button next to your response that is based on the information covered on the topic in the module. Each correct or incorrect response will
+        result in appropriate feedback immediately after you submit your work.</li>
+      <li>After responding to the questions, click on the <strong>"Next Question"</strong> button. After responding to the 5th question, click on <strong>"submit"</strong> on the bottom of the window to check your result.</li>
+      <li>If you select an incorrect response for a question, you can try again until you get the correct response.</li>
+      <li>The <strong>total score</strong> for the quiz is based on your responses to all questions. If you respond incorrectly to a question or retake a question again and get the correct response, your quiz score will reflect it appropriately. However, your quiz
+        will not be graded, if you skip a question or exit before responding to all the questions.</li>
+      </ol>
 
       <button type="button" name="button" class="btn btn-info" id="next">Next</button>
+
     </div>
-    <div class="Ques">
+
+
+    <div class="ques">
       <div class="card">
         <div class="card-header">
           <h3> JavaScript MCQ : JS Basics (Multiple Choice Questions)</h3>
@@ -91,11 +100,13 @@
   </div>
   <!--ques-->
   <div class="container-fluid">
-    <div class="resulto">
+    <div class="total">
       <h2>Results</h2>
+
       <p id="results"></p>
       <p id="percentage"></p>
       <p id="remark"></p>
+      </ul>
       <button type="button" class="btn btn-info" name="button" id="retake">Retake Test</button>
     </div>
   </div>
