@@ -18,7 +18,7 @@ var noOfQuestions = 5;
 //   }
 // }
 //
-// $(document).ready(function(){
+$(document).ready(function(){
 //   $("#blanks form").submit(function(event){
 //     var qOne = $("input:radio[name=questionOne]:checked").val();
 //     var qTwo = $("input:radio[name=questionTwo]:checked").val();
