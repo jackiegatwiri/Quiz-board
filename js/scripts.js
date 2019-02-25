@@ -19,12 +19,12 @@ var noOfQuestions = 5;
 // }
 //
 $(document).ready(function(){
-//   $("#blanks form").submit(function(event){
-//     var qOne = $("input:radio[name=questionOne]:checked").val();
-//     var qTwo = $("input:radio[name=questionTwo]:checked").val();
-//     var qThree = $("input:radio[name=questionThree]:checked").val();
-//     var qFour = $("input:radio[name=questionFour]:checked").val();
-//     var qFive = $("input:radio[name=questionFive]:checked").val();
+  $("#blanks form").submit(function(event){
+    var qOne = $("input:radio[name=questionOne]:checked").val();
+    var qTwo = $("input:radio[name=questionTwo]:checked").val();
+    var qThree = $("input:radio[name=questionThree]:checked").val();
+    var qFour = $("input:radio[name=questionFour]:checked").val();
+    var qFive = $("input:radio[name=questionFive]:checked").val();
 //
 //     if(qOne===undefined||qTwo===undefined||qThree===undefined||qFour===undefined||qFive===undefined){
 //       alert("answer the questions");
