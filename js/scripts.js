@@ -4,7 +4,6 @@ var point = 5;
 
 function merit() {
   var percentage = score / 25 * 100;
-  
   $("#percentage").text("Your percentage is " + percentage + "%");
   if (percentage >= 80) {
     $("#remark").text("You have Excellently passed");
@@ -26,7 +25,6 @@ $(document).ready(function() {
     var qThree = $("input:radio[name=questionThree]:checked").val();
     var qFour = $("input:radio[name=questionFour]:checked").val();
     var qFive = $("input:radio[name=questionFive]:checked").val();
-
     if (qOne === undefined || qTwo === undefined || qThree === undefined || qFour === undefined || qFive === undefined) {
       alert("answer all the questions");
     } else {

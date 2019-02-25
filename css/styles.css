@@ -13,7 +13,6 @@
 }
 
 ul {
-  /*how to remove bullets on dots in ul */
   list-style: none;
 }
 
@@ -27,38 +26,42 @@ ul {
   border: solid 3px;
   border-color: #9795cf;
   border-width: 50px;
-
 }
+
 .total>h2 {
   text-align: center;
   margin-top: 20px;
   font-family: 'Kaushan Script', cursive;
-
 }
+
 .instructions h2 {
   text-align: center;
   margin-top: 3em;
   color: #64638f;
   font-family: 'Anton', sans-serif;
-
 }
+
 .instructions li {
   padding-top: 2em;
   line-height: 35px;
 }
+
 .instructions button {
   margin-top: 5em;
   float: right;
 }
-.body,h3 {
+
+.body, h3 {
   font-size: 15px;
 }
+
 #submit {
   margin-bottom: 10px;
-  float:right;
+  float: right;
 }
+
 #retake {
-  float:right;
+  float: right;
 }
 
 #retake {
