@@ -1,15 +1,15 @@
-/* .card {
+.card {
   background-image: linear-gradient(#64638f, #9795cf, #64638f);
   text-align: center;
   color: white;
   border-radius: 10px;
 }
-.body {
+/* .body {
   margin-top: 10px;
   margin-bottom: 10px;
 
-}
+} */
 ul {
-  /* how to remove bullets on dots in ul */
-  /* list-style: none;
-} */ */
+  /*how to remove bullets on dots in ul */
+  list-style: none;
+}
