@@ -1,8 +1,8 @@
-// var score = 0;
-// var answer = ["a", "b", "c", "d"];
-// var point = 5;
-// var noOfQuestions = 5;
-// // var highest = noOfQuestions*point;
+var score = 0;
+var answer = ["a", "b", "c", "d"];
+var point = 5;
+var noOfQuestions = 5;
+// var highest = noOfQuestions*point;
 //
 // function jackie(){
 //   var percentage = score/25*100;
